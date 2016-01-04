@@ -1,0 +1,78 @@
+@import "base.less";
+
+html {
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+body {
+    .theme-page;
+    background: #fff;
+    display: block;
+    max-width: 1400px;
+    padding: @padding;
+    border: none;
+    border-bottom: 4px solid @theme-profile;
+    margin: auto;
+}
+
+#mailheader {
+    display: none !important;
+    color: @theme-page;
+    font-size: 1px;
+}
+
+#top {
+    padding-bottom: @padding;
+    margin-bottom: (@margin * 2);
+    border-bottom: 1px solid @gray;
+}
+
+a {
+    color: darken(@theme-request, 20%);
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+p {
+    margin: (@margin * 2) 0;
+    padding: 0 (@padding / 2);
+}
+
+#footer {
+    margin: auto;
+    margin-top: (@margin * 2);
+    margin-bottom: 0;
+    color: #777;
+    text-align: center;
+}
+
+#footer #copyright {
+    font-weight: normal;
+    text-decoration: none;
+    color: #777;
+    display: inline-block;
+}
+
+#footer #fdiv {
+    width: 300px;
+    height: 0;
+    border-top-color: #999;
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin: 2px auto 4px auto;
+    clear: both;
+    display: block;
+}
+
+#footer #notices {
+    font-size: 80%;
+    display: block;
+
+    a {
+        color: #888;
+        text-decoration: none;
+        font-weight: normal;
+    }
+}

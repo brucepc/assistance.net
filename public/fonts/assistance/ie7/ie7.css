@@ -1,0 +1,57 @@
+.fico-extlink {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x5e;');
+}
+.fico-settings {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2a;');
+}
+.fico-person {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x70;');
+}
+.fico-people {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x50;');
+}
+.fico-lock {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x25;');
+}
+.fico-inbox {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x3d;');
+}
+.fico-help {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x3f;');
+}
+.fico-feedback {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x3a;');
+}
+.fico-exclamation {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x21;');
+}
+.fico-document {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x23;');
+}
+.fico-assistance {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x7e;');
+}
+.fico-a {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x41;');
+}
+.fico-new {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2b;');
+}
+.fico-message {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x22;');
+}
+.fico-location {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x40;');
+}
+.fico-service {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x73;');
+}
+.fico-request {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x72;');
+}
+.fico-scales {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x24;');
+}
+.fico-x {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x78;');
+}

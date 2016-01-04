@@ -1,0 +1,77 @@
+@gray: #aaaaaa;
+@dark-gray: #666666;
+@light-gray: #dddddd;
+@button-color: #ffffff;
+@text-color: #000000;
+@link-color: #6088D4;
+@back-color: #ffffff;
+@shade-dark: #444444;
+@shade-light: #dddddd;
+
+@color-default: @gray;
+@color-profile: #ff7400;
+@color-service: #71bb15;
+@color-request: #00a4ff;
+@color-skill: #5340c5;
+
+@color-error: #ff5438;
+@color-warning: #ffcc00;
+@color-success: #20cc40;
+@color-indeterminate: #5090dd;
+@color-special: #f64a88;
+@cnames: 'default', 'profile', 'service', 'request', 'skill', 'error', 'warning', 'success', 'indeterminate', 'special';
+
+.theme {
+    .l(@i: length(@cnames)) when (@i > 0) {
+        @name: e(extract(@cnames, @i));
+        @color: 'color-@{name}';
+        &-@{name} { background: @@color; color: @button-color; }
+        .l((@i - 1));
+    } .l;
+}
+.color {
+    .l(@i: length(@cnames)) when (@i > 0) {
+        @name: e(extract(@cnames, @i));
+        @color: 'color-@{name}';
+        &-@{name} { color: @@color; }
+        .l((@i - 1));
+    } .l;
+}
+button {
+    color: @button-color;
+    background: @color-default;
+    &:hover { background: softlight(@color-default, @shade-light); }
+    &:active { background: softlight(@color-default, @shade-dark); } 
+}
+.button {
+    .l(@i: length(@cnames)) when (@i > 0) {
+        @name: e(extract(@cnames, @i));
+        @color: 'color-@{name}';
+        &-@{name} { background: @@color; color: @button-color; }
+        &-@{name}:hover { background: softlight(@@color, @shade-light); }
+        &-@{name}:active { background: softlight(@@color, @shade-dark); } //less is stupid
+        .l((@i - 1));
+    } .l;
+}
+a { color: @link-color; }
+.link {
+    color: @link-color;
+
+    .l(@i: length(@cnames)) when (@i > 0) {
+        @name: e(extract(@cnames, @i));
+        @color: 'color-@{name}';
+        &-@{name} { color: @@color; }
+        &-@{name}:hover { color: softlight(@@color, @shade-light); }
+        &-@{name}:active { color: softlight(@@color, @shade-dark); } //less is stupid
+        .l((@i - 1));
+    } .l;
+}
+
+//palette based colors
+@palette: #000000, #7f7f7f, #c3c3c3, #ffffff, #880015, #b65b28, #ed1c24, #f17ba2, #ff7f27, #ffc90e, #fff200, #fbe683, #22b14c, #00a2e8, #99d9ea, #b5e61d, #a349a4, #3f48cc, #7092be, #bbaaf1;
+.l(@i: 1) when (@i <= length(@palette)) {
+    @color: extract(@palette, @i);
+    .stroke-@{i} { color: @color; }
+    .brush-@{i} { background: @color; color: @button-color; }
+    .l((@i + 1));
+} .l;

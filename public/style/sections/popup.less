@@ -1,0 +1,368 @@
+//All styling for dialogs and popups and any specific dialogs or popups
+
+/////// DIALOGS ///////
+
+@dialog-width: 800px;
+
+#dialog {
+    //color: @theme-text;
+    padding: (@padding * 2);
+    width: @dialog-width;
+    max-width: 90%;
+    max-height: 90%;
+    display: block;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    .box-shadow(0 0 100px rgba(48, 0, 0, 0.1));
+    .transition(0.1s linear);
+}
+
+#dialog form {
+    position: relative; //required when using gloss
+    display: inline-block;
+    width: 100%;
+}
+
+#dialog .html_area {
+    position: relative;
+    overflow-y: auto;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+#dialog.shadow {
+    .box-shadow(0 0 10px rgba(48, 0, 0, 0.2));
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+#dialog h1 {
+    font-weight: 500;
+    position: relative;
+}
+
+#dialog h2 {
+    margin: @spacing 0;
+    position: relative;
+}
+
+#dialog hr {
+    border: none;
+    height: 2px;
+    background-color: @back-color;
+    .opacity(0.5);
+    margin-bottom: @spacing;
+    margin-top: @spacing;
+}
+
+@dialog-input-height: 42px;
+@dialog-input-bg-color: rgba(255, 255, 255, 0.9);
+@dialog-input-color: rgba(0, 0, 0, 0.8);
+
+#dialog .pull-left {
+    width: (@dialog-width / 2 - @padding * 0.5);
+}
+
+#dialog .pull-right {
+    width: (@dialog-width / 2 - @padding * 0.5);
+}
+
+#dialog #dlg-bottom {
+    position: absolute;
+    bottom: @spacing;
+    right: 0;
+}
+
+#dialog #dlg-title-icon {
+    font-size: 60pt;
+    margin-right: @spacing;
+    display: inline-block;
+    //color: white;
+}
+
+#dialog #dlg-title-text {
+    display: inline-block;
+    vertical-align: super;
+    margin-left: @spacing;
+}
+
+#dialog #dlg-x-button {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: @padding;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    z-index: 100;
+    .opacity(0.2);
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    &:active {
+        .opacity(0.1);
+    }
+}
+
+@button-height: 42px;
+
+#dialog .vr, #dialog vr {
+    margin: 0;
+    padding: 0;
+    width: 1px;
+    height: (@button-height * 2);
+    background-color: @back-color;
+    opacity: 0.5;
+    float: none;
+    vertical-align: bottom;
+}
+
+#dialog .bbutton {
+    .user-select(none);
+    //color: @theme-text;
+    display: inline-block;
+    cursor: pointer;
+    line-height: (@button-height * 2);
+    height: (@button-height * 2);
+    text-align: center;
+    font-size: 120%;
+    padding-right: (@padding * 2);
+    padding-left: (@padding * 2);
+
+    &:hover {
+        text-shadow: 0 0 20px white;
+    }
+
+    &:active {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    &:focus {
+        outline: 0;
+        .box-shadow(inset 0 0 20px rgba(0, 0, 0, 0.2));
+    }
+
+    &.dlg-dfl-button {
+        border-bottom: 4px solid rgba(255, 255, 255, 0.2);
+    }
+}
+
+.dialog-input() {
+    .box-sizing(border-box);
+    background-color: @dialog-input-bg-color;
+    color: @dialog-input-color;
+    border: none;
+    height: @dialog-input-height;
+    line-height: (@dialog-input-height - 8px); //vertical padding
+    display: block;
+    width: 100%;
+    padding: 4px 8px;
+    font-size: 100%;
+    font-weight: 200;
+    margin-bottom: @spacing;
+    margin-top: @spacing;
+    outline: 0;
+    border: 0;
+
+    &:disabled {
+        .opacity(0.6);
+    }
+
+    &:hover {
+        background-color: (@dialog-input-bg-color + rgba(0, 0, 0, 0.2));
+        outline: 0;
+    }
+
+    &:active {
+        background-color: (@dialog-input-bg-color + rgba(0, 0, 0, -0.2));
+        outline: 0;
+        .box-shadow(none);
+    }
+}
+
+#dialog input, #dialog textarea, #dialog button {
+    .dialog-input;
+}
+
+#dialog #workform {
+    .box-sizing(border-box);
+    padding: 0;
+    margin: 0;
+}
+
+#dialog input[disabled] {
+    opacity: 0.5;
+}
+
+#dialog textarea {
+    padding: 4px;
+}
+
+#dialog button {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#dialog .iconlink {
+    height: @dialog-input-height;
+    width: @dialog-input-height;
+    border: 1px solid (@dialog-input-color + rgba(0, 0, 0, -0.5));
+    .border-radius(3px);
+    margin-right: (@spacing / 2);
+}
+
+/////// POPUPS ///////
+
+@floating-menu-padding: 4px;
+
+.floating-menu {
+    position: absolute;
+    margin: 0;
+    padding: @floating-menu-padding;
+    border: 1px solid #888;
+    background-color: #fff;
+    z-index: 99999999;
+    font-weight: 600;
+    overflow: auto;
+}
+
+.floating-menu a { //standard menu item
+    display: block;
+    padding: @floating-menu-padding;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    text-decoration: none;
+
+    // &:hover {
+    //     background: #eee;
+    // }
+
+    // &:active {
+    //     background: #ccc;
+    // }
+
+    &:focus {
+        outline: none;
+        border-color: #ccc;
+    }
+}
+
+.floating-menu .separator, .floating-menu hr { //visual separator
+    display: block;
+    border-top: 1px solid #ccc;
+    height: 0;
+    padding: 0;
+    margin: @floating-menu-padding (@floating-menu-padding / 2);
+}
+
+.floating-menu .space, .floating-menu br { //visual spacer
+    display: block;
+    border-top: 1px solid transparent; //to have same visual height as other items
+    height: @floating-menu-padding;
+    margin: 0;
+}
+
+.floating-menu .header, .floating-menu h1 { //visual header to group items in the menu
+    font-weight: 600;
+    font-size: 120%;
+    text-decoration: underline;
+    user-select: none;
+    -webkit-user-select: none;
+    display: block;
+    padding: @floating-menu-padding;
+}
+
+/////// SPECIFIC DIALOGS ///////
+
+@feedback-form-height: 400px;
+
+#feedback-form {
+    width: 100%;
+}
+
+#feedback-form input[type='radio'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    float: left;
+    width: 32px;
+    height: 32px;
+    background: #fff;
+    border: 4px solid #fff;
+    margin: 0;
+    margin-right: @spacing;
+    display: inline-block;
+
+    &:checked {
+        background: #000;
+    }
+}
+
+#feedback-form hr {
+    height: 2px;
+    margin: 8px 0;
+}
+
+#feedback-form label {
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    margin-right: (@spacing * 2);
+    display: inline-block;
+}
+
+#feedback-form #feedback-choice {
+    margin: 0;
+    height: 32px;
+}
+
+#feedback-form #feedback-text {
+    height: @feedback-form-height - 40px;
+}
+
+//send message
+
+
+#sendmsg-form {
+    overflow: auto;
+
+    input, textarea {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    #msg-who {
+        width: auto;
+        padding: 0;
+        border: 0;
+        background: #fff;
+        margin-bottom: 10px;
+
+        input {
+            background: transparent;
+            display: inline-block;
+            margin: 0;
+            margin-left: 2px;
+            width: auto;
+        }
+
+        .context {
+            height: 38px;
+            line-height: 38px;
+        }
+    }
+
+    #message {
+        height: 400px !important;
+    }
+}

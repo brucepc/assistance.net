@@ -1,0 +1,131 @@
+@import "../base.less";
+@import "../sections/popup.less";
+@import "../sections/widgets.less";
+@import "../sections/footer.less";
+
+@text-color: #fff;
+
+footer {
+	position: absolute;
+	bottom: 1em;
+	left: 0;
+	right: 0;
+}
+
+.blade {
+	footer hr, hr.hinthr {
+		height: 1px;
+	}
+
+	hr {
+		color: #fff;
+		background-color: #fff;
+		.opacity(0.5);
+	}
+
+	h1 {
+		font-weight: 500;
+		position: relative;
+	}
+
+	h2 {
+		margin: @spacing 0;
+		position: relative;
+	}
+
+	#asst-logo {
+		font-size: 48pt;
+		text-decoration: none;
+		color: @text-color;
+	}
+}
+
+.input, input[type='text'], input[type='tel'], input[type='email'], input[type='password'] {
+	border: none;
+	outline: none;
+	font-size: 1.2em;
+	display: block;
+	padding: 8px 4px;
+	background: rgba(255, 255, 255, 0.9);
+	foreground: rgba(0, 0, 0, 0.8);
+	margin: 10px 0;
+	width: 100%;
+	.box-sizing(border-box);
+
+	&:hover {
+		background: #fff;
+	}
+}
+.style-check-label {
+	.opacity(0.9);
+}
+input[type='checkbox'], input[type='checkbox'] {
+    opacity: 0; //use non-fallback as old versions have special render modes
+    width: 16px;
+    height: 16px;
+    border: none;
+    outline: none;
+    margin: 0;
+    display: inline;
+}
+
+input[type='checkbox'] + label {
+	vertical-align: middle;
+	outline: none;
+	width: 16px;
+	height: 16px;
+	margin-left: -16px;
+	.transition(0.1s);
+}
+
+input[type='checkbox']:focus + label {
+	outline: 1px solid rgba(128, 0, 0, 0.5);
+}
+//.style-check:checked + .check-label { background: @dialog-input-color; }
+input[type='submit'], button, .button {
+	.dialog-input;
+	width: 150px !important;
+	border: 1px solid transparent;
+	display: inline-block;
+	margin: 0;
+
+	&:focus { border: 1px solid rgba(0, 0, 0, 0.3); }
+
+	&.theme-error { color: @color-error; }
+}
+
+.form-error {
+	background: #f04;
+	padding: 2px 4px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin-bottom: 5px;
+}
+
+#bottom-left {
+	height: 42px;
+	line-height: 42px;
+	float: left;
+}
+#bottom-right {
+	height: 42px;
+	line-height: 42px;
+	float: right;
+}
+
+.hint {
+	color: #eee;
+	color: rgba(255, 255, 255, 0.45);
+}
+
+.button-error {
+	background: rgba(255, 255, 255, 0.9);
+	color: @color-error;
+
+	&:hover { text-decoration: none; }
+}
+
+//page specific
+
+#caps-lock {
+	visibility: hidden;
+}

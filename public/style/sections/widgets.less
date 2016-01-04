@@ -1,0 +1,97 @@
+//all styling for custom widgets (not popups)
+
+//styalized checkbox (requires specific HTML, see widgets.php to implement
+.style-check {
+    width: 0;
+}
+
+.style-check:checked + .style-check-label {
+    background: #000;
+}
+
+.style-check-label {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 4px solid #fff;
+    outline: 2px solid #000;
+    margin: 2px;
+    margin-right: 10px;
+    vertical-align: bottom;
+    line-height: 24px;
+    background: #fff;
+    .user-select(none);
+}
+
+//// context selection textbox
+
+.cxtsel-box {
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    padding: 0 2px 2px 0;
+    cursor: text;
+}
+
+.cxtsel-box input {
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    min-width: 2em;
+    width: 2em;
+    padding: 0 2px;
+    border: 1px solid transparent;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.cxtsel-box .context {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    .box-sizing(border-box);
+    display: inline-block;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    margin-left: 2px;
+    margin-top: 2px;
+    padding-left: 2px;
+    color: #fff;
+    background: #888;
+    position: relative;
+    vertical-align: top;
+}
+
+.context .cxttext {
+    display: inline-block;
+    padding: 0 4px;
+    height: 100%;
+}
+
+.context[cxt-type='profile'], .context[cxt-type='user'] {
+    background: #ff7400;
+}
+
+.context[cxt-type='service'] {
+    background: #71BB15;
+}
+
+.context[cxt-type='request'] {
+    background: #00A4FF;
+}
+
+.context .cxtdel {
+    margin-left: 4px;
+    padding: 0 0.3em;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    height: 100%;
+}
+
+.context .cxtdel:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.context .cxtdel:active {
+    background: rgba(0, 0, 0, 0.2);
+}

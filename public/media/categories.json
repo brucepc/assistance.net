@@ -1,0 +1,532 @@
+{
+    "Agriculture and Mining":
+    {
+        "Farming and Ranching":
+        {
+            "Aquaculture": null,
+            "Mariculture": null,
+            "Alligator Farming": null,
+            "Contract farming": null,
+            "Integrated farming": null,
+            "Orchardry": null,
+            "Organic farming": null,
+            "Pig farming": null,
+            "Poultry farming": null,
+            "Sericulture": null,
+            "Sheep Husbandry": null
+        },
+        "Fishing":
+        {
+            "Commercial fishing": null,
+            "Fish farms": null,
+            "Fish marketing": null,
+            "Fish products": null,
+            "Sustainable fishing": null
+        },
+        "Hunting":
+        {
+            "Big Game": null,
+            "Hunting Dogs": null,
+            "Predator and Varmint": null,
+            "Small Game": null,
+            "Waterfowl": null,
+            "Weapons":
+            {
+                "Archery": null,
+                "Firearms": null
+            }
+        },
+        "Logging":
+        {
+            "Cut-to-length logging": null,
+            "Forestry": null,
+            "Tree-length logging \/ Stem Only Harvesting (SOH)": null,
+            "Whole Tree Logging (WTL)": null
+        },
+        "Mining and Quarrying":
+        {
+            "Minerals":
+            {
+                "Bauxite mining": null,
+                "Calcium carbonate mining": null,
+                "Chromium mining": null,
+                "Coal mining": null,
+                "Cobalt mining": null,
+                "Copper mining": null,
+                "Gold mining": null,
+                "Graphite mining": null,
+                "Iron mining": null,
+                "Lead mining": null,
+                "Lithium mining": null,
+                "Magnesium mining": null,
+                "Molybdenum mining": null,
+                "Nickel mining": null,
+                "Oil shale mining": null,
+                "Peat mining": null,
+                "Phosphate mining": null,
+                "Silver mining": null,
+                "Slate industry": null,
+                "Tantalum mining": null,
+                "Tin mining": null,
+                "Titanium mining": null,
+                "Tungsten mining": null,
+                "Uranium mining": null,
+                "Vanadium mining": null
+            },
+            "Virtual Currencies":
+            {
+                "Anoncoin": null,
+                "BBQCoin": null,
+                "Bitcoin": null,
+                "Coinye West": null,
+                "Copperlark": null,
+                "CryptogenicBullion": null,
+                "Devcoin": null,
+                "Digitalcoin": null,
+                "DogeCoin": null,
+                "Fastcoin": null,
+                "Feathercoin": null,
+                "Freicoin": null,
+                "GoldCoin": null,
+                "I0Coin": null,
+                "Infinitecoin": null,
+                "Ixcoin": null,
+                "Litecoin": null,
+                "Luckycoin": null,
+                "Megacoin": null,
+                "Mincoin": null,
+                "Namecoin": null,
+                "Novacoin": null,
+                "Peercoin": null,
+                "Primecoin": null,
+                "ProtoShares": null,
+                "QuarkCoin": null,
+                "TagCoin": null,
+                "Terracoin": null,
+                "Tickets": null,
+                "WorldCoin": null,
+                "Yacoin": null,
+                "Zetacoin": null
+            }
+        }
+    },
+    "Business Services":
+    {
+        "Accounting and Tax Preparation": null,
+        "Advertising, Marketing and PR": null,
+        "Data and Records Management": null,
+        "Facilities Management and Maintenance": null,
+        "HR and Recruiting Services": null,
+        "Legal Services": null,
+        "Management Consulting": null,
+        "Payroll Services": null,
+        "Sales Services": null,
+        "Security Services": null
+    },
+    "Computer and Electronics":
+    {
+        "Audio, Video and Photography": null,
+        "Computers, Parts and Repair": null,
+        "Consumer Electronics, Parts and Repair": null,
+        "Instruments and Controls": null,
+        "IT and Network Services and Support": null,
+        "Network Security": null,
+        "Networking equipment and Systems": null,
+        "Office Machinery and Equipment": null,
+        "Peripherals Manufacturing": null,
+        "Semiconductor and Microchip Manufacturing": null
+    },
+    "Consumer Services":
+    {
+        "Automotive Repair and Maintenance": null,
+        "Funeral Homes and Services": null,
+        "Laundry and Dry Cleaning": null,
+        "Parking Lots and Garage Management": null,
+        "Personal Care": null,
+        "Photofinishing Services": null
+    },
+    "Education":
+    {
+        "Colleges and Universities": null,
+        "Elementary and Secondary Schools": null,
+        "Libraries, Archives and Museums": null,
+        "Sports, Arts, and Recreation Instruction": null,
+        "Technical and Trade School": null,
+        "Test Preparation":
+        {
+            "Armed Forces":
+            {
+                "ASVAB": null
+            },
+            "Graduate/Professional Schools":
+            {
+                "Allied Health Professions Admission Test (AHPAT)": null,
+                "Dental Admission Test (DAT)- (United States)": null,
+                "Graduate Management Admission Test (GMAT) - (US)": null,
+                "Graduate Record Examination (GRE)": null,
+                "Law School Admission Test (LSAT) - (US and Canada)": null,
+                "Miller Analogies Test (MAT)": null,
+                "Medical College Admission Test (MCAT) - (US and Canada)": null,
+                "Optometry Admission Test (OAT)": null,
+                "Pharmacy College Admission Test (PCAT)": null,
+                "Veterinary College Admission Test (VCAT)": null,
+                "California Basic Educational Skills Test": null,
+                "Wiesen Test of Mechanical Aptitude (WTMA)": null
+            },
+            "Language proficiency":
+            {
+                "IELTS - International English Language Testing System": null,
+                "iTEP - International Test of English Proficiency": null,
+                "TOEFL - Test of English as a Foreign Language": null,
+                "TOEIC - Test of English for International Communication": null,
+                "TSE - Test of Spoken English": null,
+                "TWE - Test of Written English": null
+            },
+            "Professional certification tests":
+            {
+                "COMLEX-USA": null,
+                "Examination for Professional Practice in Psychology (EPPP)": null,
+                "Fundamentals of Engineering": null,
+                "Multistate Bar Examination": null,
+                "Multistate Pharmacy Jurisprudence Examination (MPJE)": null,
+                "Multistate Professional Responsibility Examination (MPRE)" : null,
+                "NAPLEX": null,
+                "NCLEX-PN": null,
+                "NCLEX-RN": null,
+                "Physician Assistant National Certifying Exam (PA)": null,
+                "PRAXIS": null, 
+                "Principles and Practice of Engineering Exam": null, 
+                "Series 6 Exam": null,
+                "Series 7 Exam": null,
+                "Uniform Certified Public Accountant Examination": null,
+                "Uniform Combined State Law Examination (Series 66 Exam)": null,
+                "Uniform Securities Agent State Law Examination (Series 63 Exam)": null,
+                "United States Medical Licensing Examination for physicians": null, 
+                "USPTO registration examination ": null
+            },
+            "Secondary School":
+            {
+                "COOP- Cooperative admissions examination program":null,
+                "HSPT - High School Placement Test": null,
+                "ISEE - Independent School Entrance Examination": null,
+                "SSAT - Secondary School Admission Test": null
+            },
+            "Undergraduate":
+            {
+                "ACT": null,
+                "SAT": null
+            }
+    }
+    },
+    "Energy and Utilities":
+    {
+        "Alternative Energy Sources": null,
+        "Gas and Electric Utilities": null,
+        "Gasoline and Oil Refineries": null,
+        "Sewage Treatment Facilities": null,
+        "Waste Management and Recycling": null,
+        "Water Treatment and Utilities": null
+    },
+    "Financial Services":
+    {
+        "Banks": null,
+        "Credit Cards and Related Services": null,
+        "Credit Unions": null,
+        "Insurance and Risk Management": null,
+        "Investment Banking and Venture Capital": null,
+        "Lending and Mortgage": null,
+        "Personal Financial Planning and Private Banking": null,
+        "Securities Agents and Brokers": null,
+        "Trust, Fiduciary, and Custody Activities": null
+    },
+    "Government":
+    {
+        
+        "International Bodies and Organizations": null,
+        "Local Government":
+        {
+            "Campaining": null
+        },
+        "National Government":
+        {
+            "Campaining": null
+        },
+        "State Provincial Government":
+        {
+            "Campaining": null
+        }
+    },
+    "Health, Pharmaceuticals, and Biotech":
+    {
+        "Biotechnology": null,
+        "Diagnostic Laboratories": null,
+        "Doctors and Health Care Practitioners": null,
+        "Hospitals": null,
+        "Medical Devices": null,
+        "Medical Supplies and Equipment": null,
+        "Outpatient Care Centers": null,
+        "Personal Health Care Products": null,
+        "Pharmaceuticals": null,
+        "Residential and Long-term Care Facilities": null,
+        "Veterinary Clinics and Services": null
+    },
+    "Law":
+    {
+        "Admiralty and Maritime Law": null,
+        "Advertising and Marketing (Media Law, Entertainment Law)":  null,
+        "Agriculture Law": null,
+        "Alternative Dispute Resolution, Arbitration,": null,
+        "Animal Law": null,
+        "Antitrust and Trade Regulations": null,
+        "Appellate": null,
+        "Architectural and Engineering Law": null,
+        "Aviation and Aerospace (Transportation)": null,
+        "Banking (Finance, Financial Institutions and Services, Banking Regulation)": null,
+        "Bankruptcy (Foreclosure, Insolvency, Reorganization, Workout, Debtor and Creditor, Collections)": null,
+        "Biotechnology": null,
+        "Bond (Municipal Finance, Securities)": null,
+        "Business": null,
+        "Business Litigation": null,
+        "Capital Markets": null,
+        "Charities": null,
+        "Civil Rights": null,
+        "Collections (Bankruptcy, Debtor and Creditor)":  null,
+        "Commercial Law (Transactions, Commercial Litigation)": null,
+        "Commodities (Securities)":  null,
+        "Communications and Telecommunications":  null,
+        "Competitive Practices (Antitrust and Trade Regulations)":  null,
+        "Computer and Internet Law (Intellectual Property, Technology)":  null,
+        "Condemnation (Eminent Domain)":  null,
+        "Construction Law (Architectural and Engineering Law; Real Estate, Construction Litigation)":  null,
+        "Cooperative and Condominium (Real Estate)":  null,
+        "Copyright (Intellectual Property)":  null,
+        "Corporate (Antitrust and Trade Regulations, Transactions, Corporate Litigation)":  null,
+        "Corporate Finance (Bond, Finance, Securities)":  null,
+        "Creditor Rights (Debtor and Creditor)":  null,
+        "Criminal Defense (White-Collar Criminal Law)": null,
+        "Debtor and Creditor (Creditor Rights)":  null,
+        "Domestic Relations (Family Law)": null,
+        "Drug (Food and Drug)": null,
+        "E-Commerce, E-Business": null,
+        "Education Law": null,
+        "Eminent Domain (Condemnation, Land Use, Real Estate)": null,
+        "Employee Benefits (ERISA and Executive Compensation, Labor and Employment)": null,
+        "Energy (Natural Resources, Oil and Gas, Utilities)": null,
+        "Engineering (Construction Law)": null,
+        "Entertainment Law (Media, Entertainment Litigation)": null,
+        "Environmental Law (CERCLA, FIFRA, RCRA, Land Use, Natural Resources, Toxic": null,
+        "Torts, Environmental Litigation)": null,
+        "ERISA (Employee Benefits, Pension)": null,
+        "Estates and Trusts (Probate)": null,
+        "Family Law (Domestic Relations, Matrimonial Law)": null,
+        "Federal Income Tax (Taxation)": null,
+        "Fiduciary Law (Estates and Trusts)": null,
+        "Finance (Banking, Corporate Finance, Financial Institutions, Services, Private Finance, Placements)": null,
+        "Financial Institutions, Financial Services (Banking, Finance, Investment Companies)": null,
+        "Food and Drug (Pharmaceuticals, Technology, Biotechnology)": null,
+        "Foreclosure (Bankruptcy)": null,
+        "Foundations (Nonprofit Organizations)": null,
+        "Franchise Law": null,
+        "Futures and Options (Securities)": null,
+        "Government Affairs (Legislative Law, Lobbying)": null,
+        "Government Contracts": null,
+        "Governmental Law (Election Law, Administrative Law, Government Contracts,": null,
+        "Legislative Law, Municipal)": null,
+        "Health Care Law (Professional Liability)": null,
+        "Housing and Urban Development (Real Estate)": null,
+        "Immigration Law": null,
+        "Import, Export (International Trade)": null,
+        "Indian Law": null,
+        "Insolvency (Bankruptcy)": null,
+        "Insurance (Insurance Defense and Regulation)": null,
+        "Insurance Litigation": null,
+        "Intellectual Property (Copyright, Patent and Trademark Law, Intellectual Property litigation)": null,
+        "International Law, Transactions, International Litigation": null,
+        "International Trade": null,
+        "Investment Companies (Commodities, Financial Institutions and Services, Securities)": null,
+        "Joint Ventures (Partnerships, Joint Ventures)": null,
+        "Labor and Employment (Safety and Health, Employee Benefits, Labor and Employment Litigation)": null,
+        "Land Use (Zoning, Eminent Domain, Environmental Law)": null,
+        "Leasing, Lease Finance (Real Estate)": null,
+        "Legislative Law (Government Affairs, Governmental Law, Lobbying)": null,
+        "Lending (Finance)": null,
+        "Litigation (Appellate, Business, Commercial Law, Construction, Corporate, Labor, Real Estate, Securities)": null,
+        "Lobbying (Governmental Affairs, Legislative Law)": null,
+        "Maritime Law (Admiralty and Maritime Law)": null,
+        "Matrimonial Law (Family Law)": null,
+        "Media (Advertising and Marketing, Entertainment Law)": null,
+        "Medical (Health Care Law)": null,
+        "Medical Malpractice (Professional Liability)": null,
+        "Mergers and Acquisitions": null,
+        "Mining (Natural Resources)": null,
+        "Mortgage Finance": null,
+        "Mortgage Foreclosure": null,
+        "Municipal (Bond, Government Affairs, Governmental Law, Municipal Finance, Public Finance)": null,
+        "Natural Resources (Mining and Water, Energy, Environmental Law, Oil and Gas)": null,
+        "Nonprofit Organizations (Charities)": null,
+        "Oil and Gas (Energy, Natural Resources)": null,
+        "Partnerships, Joint Ventures": null,
+        "Patent (Intellectual Properties)": null,
+        "Pension (Employee Benefits)": null,
+        "Personal Injury (Torts)": null,
+        "Personal Services": null,
+        "Pharmaceuticals (Food and Drug)": null,
+        "Private Finance, Placements (Finance)": null,
+        "Privatization (Business)": null,
+        "Probate (Estates and Trusts)": null,
+        "Products Liability (Torts)":  null,
+        "Professional Liability (Medical Malpractice, Torts)": null,
+        "Project Finance (Public Finance)": null,
+        "Public Agency (Governmental Law)": null,
+        "Public Finance (Municipal Finance)": null,
+        "Public Law (Administrative Law)": null,
+        "Public Utility (Utilities)": null,
+        "Real Estate (Real Estate Tax, Eminent Domain, Leasing, Lease Finance)": null,
+        "Regulated Industries (Energy, Utilities)": null,
+        "Regulatory Law (Administrative Law, Banking Regulation, Regulated Industries)": null,
+        "Resorts and Casino Law": null,
+        "Safety and Health (Labor and Employment)": null,
+        "Science (Technology)": null,
+        "Securities (Corporate Finance, Securities Litigation)": null,
+        "Sports Law": null,
+        "State and Local Taxes (Taxation)": null,
+        "Subrogation (Insurance)": null,
+        "Syndications": null,
+        "Tax-Exempt Organizations (Nonprofit Organizations)": null,
+        "Taxation": null,
+        "Technology and Science (Biotechnology, Computer Law, Food and Drug, Intellectual Property)": null,
+        "Telecommunications (Communications and Telecommunications)": null,
+        "Torts (Environmental Law, Personal Injury, Products Liability, Professional Liability)": null,
+        "Toxic Torts": null,
+        "Trade Regulation (Antitrust and Trade Regulation)": null,
+        "Trademark (Intellectual Property)": null,
+        "Transactions (Commercial Law, Corporate Law)": null,
+        "Transportation (Admiralty and Maritime Law, Aviation and Aerospace)": null,
+        "Trusts (Estates and Trusts)": null,
+        "Utilities (Energy, Regulated Industries)": null,
+        "Venture Capital (Finance)":  null,
+        "Water (Natural Resources)": null,
+        "White-Collar Criminal Law (Criminal Defense)": null,
+        "Workers Compensation (Labor and Employment)": null,
+        "Workout (Bankruptcy)": null,
+        "Zoning (Land use)": null
+    },
+    "Manufacturing":
+    {
+        "Aerospace and Defense": null,
+        "Alcoholic Beverages": null,
+        "Automobiles, Boats and Motor Vehicles": null,
+        "Chemicals and Petrochemicals": null,
+        "Composite Materials": null,
+        "Concrete, Glass and Building Materials": null,
+        "Farming and Mining Machinery and Equipment": null,
+        "Food and Dairy Product Manufacturing and Packaging": null,
+        "Furniture Manufacturing": null,
+        "Metals Manufacturing": null,
+        "Nonalcoholic Beverages": null,
+        "Paper and Paper Products": null,
+        "Plastics and Rubber Manufacturing": null,
+        "Textiles, Apparel and Accessories": null,
+        "Tools, Hardware and Light Machinery": null
+    },
+    "Media and Entertainment":
+    {
+        "Adult Entertainment": null,
+        "Books": null,
+        "Film": null,
+        "Motion Picture and Recording Producers": null,
+        "Motion Picture Exhibitors": null,
+        "Music": null,
+        "Performing Arts": null,
+        "Periodicals": null,
+        "Radio, Television Broadcasting": null
+    },
+    "Non-profit":
+    {
+        "Advocacy Organizations": null,
+        "Charitable Organizations and Foundations": null,
+        "Professional Associations": null,
+        "Religious Organizations": null,
+        "Social and Membership Organizations": null,
+        "Trade Groups and Labor Unions": null
+    },
+    "Real Estate and Construction":
+    {
+        "Architecture, Engineering and Design": null,
+        "Construction Equipment and Supplies": null,
+        "Construction and Remodeling": null,
+        "Property Leasing and Management": null,
+        "Real Estate Agents and Appraisers": null,
+        "Real Estate Investment and Development": null
+    },
+    "Retail":
+    {
+        "Automobile Dealers": null,
+        "Automobile Parts and Supplies": null,
+        "Beer, Wine and Liquor Stores": null,
+        "Clothing and Shoe Stores": null,
+        "Department Stores": null,
+        "Florist": null,
+        "Furniture Stores": null,
+        "Gasoline Stations":    null,
+        "Grocery and Specialty Stores": null,
+        "Hardware and Building Material Dealers": null,
+        "Jewelry, Luggage, and Leather Goods": null,
+        "Office Supplies Stores": null,
+        "Restaurants and Bars": null,
+        "Sporting Goods, Hobby, Books and Music Stores": null,
+        "Retail (Other)": null
+    },
+    "Software and Internet":
+    {
+        "Data Analytics": null,
+        "Data Management": null,
+        "Internet": null,
+        "E-Commerce and Internet Business": null,
+        "Games and Gaming": null,
+        "Software": null,
+        "Programing": null,
+        "Software and Internet (Other)": null
+    },
+    "Telecommunications":
+    {
+        "Cable and Television Service Providers and Carriers": null,
+        "Telecommunications Equipment and Accessories": null,
+        "Video and Teleconferencing": null,
+        "Wireless and Mobile": null
+    },
+    "Transportation and Storage":
+    {
+        "Air Couriers and Cargo Services": null,
+        "Airport, Harbor, and Terminal Operations": null,
+        "Freight Hauling (Rail and Truck)": null,
+        "Marine and Inland Shipping": null,
+        "Moving Services": null,
+        "Postal, Express Delivery and Couriers": null,
+        "Warehousing and Storage": null
+    },
+    "Travel Recreation and Leisure":
+    {
+        "Amusement Parks and Attractions": null,
+        "Cruise Ship Operations": null,
+        "Gambling and Gaming Lodging": null,
+        "Participatory Sports and Recreation": null,
+        "Passenger Airlines": null,
+        "Rental Cars": null,
+        "Resorts and Casinos": null,
+        "Spectator Sports and Teams": null,
+        "Travel Agents and Services": null
+    },
+    "Wholesale and Distribution":
+    {
+        "Apparel Wholesalers": null,
+        "Automobile Parts Wholesalers": null,
+        "Beer, Wine and Liquor Wholesalers": null,
+        "Chemicals and Plastics Wholesalers": null,
+        "Grocery and Food Wholesalers": null,
+        "Lumber and Construction Materials Wholesalers": null,
+        "Metal and Mineral Wholesalers": null,
+        "Office Equipment and Suppliers Wholesalers": null,
+        "Petroleum Products Wholesalers": null
+    }
+}

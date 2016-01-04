@@ -1,0 +1,1 @@
+<h2>Your password has been reset</h2>

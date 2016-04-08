@@ -1,15 +1,11 @@
-mysqldata:
-  image: harshjv/mysql-data:0.9.16-1.0
-
 composerdata:
   image: harshjv/composer-data:0.9.16-1.0
 
 mysql:
-  image: harshjv/mysql:0.9.16-1.0
+  image: mysql
   environment:
-    MYSQL_PASS: root
-  volumes_from:
-    - mysqldata
+    - MYSQL_PASSWORD=root
+    - MYSQL_DATABASE=assistance
 
 phpnginx:
   image: harshjv/php-nginx:0.9.16-1.0

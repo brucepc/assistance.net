@@ -4,7 +4,7 @@ composerdata:
 mysql:
   image: mysql
   environment:
-    - MYSQL_PASSWORD=root
+    - MYSQL_ROOT_PASSWORD=root
     - MYSQL_DATABASE=assistance
 
 phpnginx:

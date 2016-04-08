@@ -48,10 +48,10 @@ return array(
 
 		'assistance' => array(
 			'driver'    => 'mysql',
-			'host'      => 'astmysqldevdb.cloudapp.net',
+			'host'      => 'mysql',
 			'database'  => 'assistance',
-			'username'  => 'phpuser',
-			'password'  => 'AnimalcrossingsucksLol',
+			'username'  => 'root',
+			'password'  => 'root',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
